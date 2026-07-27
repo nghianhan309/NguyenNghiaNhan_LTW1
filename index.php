@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Xin chào AI</h1>
+    <h1>Xin chào A1</h1>
+    <h1>Xin chào A2</h1>
 </body>
 </html>

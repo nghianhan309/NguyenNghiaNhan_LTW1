@@ -44,7 +44,7 @@
 
     <!-- 2. Banner -->
     <div class="p-5 mb-4 text-center border-bottom"
-        style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1541643600914-78b084683601?w=1920&q=80') center/cover no-repeat; color: white; min-height: 400px; display: flex; align-items: center;">
+        style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?w=1920&q=80') center/cover no-repeat; color: white; min-height: 400px; display: flex; align-items: center;">
         <div class="container-fluid py-5">
             <h1 class="display-4 fw-bold text-white mb-4">Chào mừng đến với Maya Perfume</h1>
             <p class="col-md-8 mx-auto fs-4 text-light mb-4">Đại lý cung cấp các dòng nước hoa chính hãng hàng đầu, đảm
@@ -81,15 +81,16 @@
                             <h5 class="card-title"><?= $prod['name'] ?></h5>
                             <!-- Định dạng giá tiền bằng number_format -->
                             <p class="card-text text-danger fw-bold fs-5 mt-auto mb-3">
-                            
-                                <?= number_format($prod['price'], 0, ',', '.') ?> VNĐ</p>
+
+                                <?= number_format($prod['price'], 0, ',', '.') ?> VNĐ
+                            </p>
                             <div class="d-grid gap-2">
                                 <a href="#" class="btn btn-outline-secondary">Xem chi tiết</a>
                                 <a href="#" class="btn btn-primary">Mua ngay</a>
                             </div>
                         </div>
                     </div>
-                    </div>
+                </div>
             <?php endforeach; ?>
         </div>
 
@@ -99,10 +100,10 @@
         $brands = ["Chanel", "Dior", "Gucci", "Tom Ford", "Versace"];
         ?>
         <div class="row text-center g-3 justify-content-center">
-        <?php foreach ($brands as $brand): ?>
+            <?php foreach ($brands as $brand): ?>
                 <div class="col-6 col-md-2">
                     <div class="p-3 border rounded bg-light fw-bold text-secondary"><?= $brand ?></div>
-                    </div>
+                </div>
             <?php endforeach; ?>
         </div>
 
@@ -141,8 +142,8 @@
                         <label class="form-label fw-bold">Danh mục sản phẩm quan tâm</label>
                         <select class="form-select" name="category">
                             <option value="">-- Chọn danh mục --</option>
-                        <?php foreach ($categories as $cat): ?>
-                                    <option value="<?= $cat ?>"><?= $cat ?></option>
+                            <?php foreach ($categories as $cat): ?>
+                                <option value="<?= $cat ?>"><?= $cat ?></option>
                             <?php endforeach; ?>
                         </select>
                     </div>

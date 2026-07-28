@@ -38,7 +38,7 @@
     </nav>
 
     <!-- 2. Banner -->
-    <div class="p-5 mb-4 text-center border-bottom" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/banner.png') center/cover no-repeat; color: white; min-height: 400px; display: flex; align-items: center;">
+    <div class="p-5 mb-4 text-center border-bottom" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=1920&q=80') center/cover no-repeat; color: white; min-height: 400px; display: flex; align-items: center;">
         <div class="container-fluid py-5">
             <h1 class="display-4 fw-bold text-white mb-4">Chào mừng đến với Maya Perfume</h1>
             <p class="col-md-8 mx-auto fs-4 text-light mb-4">Đại lý cung cấp các dòng nước hoa chính hãng hàng đầu, đảm bảo uy tín và chất lượng dịch vụ cực tốt.</p>
@@ -50,16 +50,17 @@
         <!-- 3. Danh sách sản phẩm -->
         <h2 class="text-center mb-4 text-uppercase fw-bold">Sản Phẩm Nổi Bật</h2>
         <?php
-            // Mảng nhiều chiều lưu sản phẩm
+            // Mảng nhiều chiều lưu sản phẩm (Sử dụng 1 link ảnh mặc định dùng chung cho tất cả sản phẩm)
+            $default_image = "https://images.unsplash.com/photo-1523293182086-7651a899d37f?w=500&q=80";
             $products = [
-                ["name" => "Chanel No.5", "price" => 3500000, "image" => "images/default-product.jpg"],
-                ["name" => "Dior Sauvage", "price" => 2800000, "image" => "images/default-product.jpg"],
-                ["name" => "Bleu de Chanel", "price" => 3200000, "image" => "images/default-product.jpg"],
-                ["name" => "Gucci Bloom", "price" => 2400000, "image" => "images/default-product.jpg"],
-                ["name" => "Tom Ford Oud Wood", "price" => 5500000, "image" => "images/default-product.jpg"],
-                ["name" => "Versace Eros", "price" => 2100000, "image" => "images/default-product.jpg"],
-                ["name" => "YSL Libre", "price" => 3100000, "image" => "images/default-product.jpg"],
-                ["name" => "Kilian Good Girl", "price" => 6500000, "image" => "images/default-product.jpg"]
+                ["name" => "Chanel No.5", "price" => 3500000, "image" => $default_image],
+                ["name" => "Dior Sauvage", "price" => 2800000, "image" => $default_image],
+                ["name" => "Bleu de Chanel", "price" => 3200000, "image" => $default_image],
+                ["name" => "Gucci Bloom", "price" => 2400000, "image" => $default_image],
+                ["name" => "Tom Ford Oud Wood", "price" => 5500000, "image" => $default_image],
+                ["name" => "Versace Eros", "price" => 2100000, "image" => $default_image],
+                ["name" => "YSL Libre", "price" => 3100000, "image" => $default_image],
+                ["name" => "Kilian Good Girl", "price" => 6500000, "image" => $default_image]
             ];
         ?>
         <div class="row g-4">

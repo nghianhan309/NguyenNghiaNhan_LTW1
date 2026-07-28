@@ -1,0 +1,1 @@
+const fs = require('fs'); const pdfParse = require('pdf-parse'); let dataBuffer = fs.readFileSync('c:\\xamppp\\htdocs\\NguyenNghiaNhan_LTW1\\LTW1_Lab2.pdf'); pdfParse(dataBuffer).then(function(data) { console.log(data.text); }).catch(function(error) { console.error(error); });

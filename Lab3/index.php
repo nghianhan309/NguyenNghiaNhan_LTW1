@@ -48,7 +48,7 @@ $perfumesWomen = [
             showProductTable($perfumesMen, "Kho Nước Hoa Nam");
 
             // Danh sách 2: Có 02 chữ số thập phân, VNĐ
-            showProductTable($perfumesWomen, "Kho Nước Hoa Nữ", "VNĐ", 2);
+            showProductTable($perfumesWomen, "Kho Nước Hoa Nữ", "VNĐ");
             ?>
         </div>
     </div>

@@ -17,13 +17,18 @@ function getTotalPrice($products) {
     return $total;
 }
 
-// Định dạng tiền tệ
-function formatPrice($price, $currency = 'VNĐ', $decimals = 0) {
-    return number_format($price, $decimals, ',', '.') . ' ' . $currency;
+/**
+ * Summary of functionTest1
+ * @param mixed $price
+ * @param mixed $currency
+ * @return string
+ */
+function functionTest1($price, $currency="đ") {
+    return number_format($price, 0, ',', '.') . ' ' . $currency;
 }
 
 // Hiển thị danh sách sản phẩm theo dạng bảng
-function showProductTable($products, $tableTitle, $currency = 'VNĐ', $decimals = 0) {
+function showProductTable($products, $tableTitle, $currency = 'VNĐ') {
     echo '<div class="card mb-5 shadow-sm border-0">';
     echo '<div class="card-header bg-dark text-white text-uppercase fw-bold h5 py-3">' . $tableTitle . '</div>';
     echo '<div class="card-body p-0">';
@@ -46,8 +51,8 @@ function showProductTable($products, $tableTitle, $currency = 'VNĐ', $decimals 
         echo '<td class="text-center">' . $prod['id'] . '</td>';
         echo '<td class="fw-bold">' . $prod['proname'] . '</td>';
         echo '<td class="text-center">' . $prod['quantity'] . '</td>';
-        echo '<td class="text-end text-danger">' . formatPrice($prod['price'], $currency, $decimals) . '</td>';
-        echo '<td class="text-end text-success fw-bold">' . formatPrice($subTotal, $currency, $decimals) . '</td>';
+        echo '<td class="text-end text-danger">' . functionTest1($prod['price'], $currency) . '</td>';
+        echo '<td class="text-end text-success fw-bold">' . functionTest1($subTotal, $currency) . '</td>';
         echo '</tr>';
     }
     

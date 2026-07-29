@@ -6,7 +6,7 @@ Tìm hiểu và phân biệt các lệnh include, require, include_once, require
 - Sử dụng: Thường dùng để nhúng các phần giao diện không quá quan trọng (VD: sidebar, quảng cáo).
 
 2. require: 
-- Mục đích: Nhúng và thực thi một file PHP khác (bắt buộc). 
+- Mục đích: Nhúng và thực thi một file PHP khác. 
 - Xử lý lỗi: Nếu file không tồn tại, PHP sẽ phát ra lỗi nghiêm trọng (Fatal Error) và dừng chương trình ngay lập tức.
 - Sử dụng: Dùng để nhúng các file chứa logic chính, cấu hình database.
 

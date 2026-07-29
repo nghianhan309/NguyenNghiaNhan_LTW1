@@ -4,7 +4,7 @@ require_once "classes/Student.php";
 require_once "functions/common.php";
 
 $students = [
-    new Student("SV001", "Nguyễn Văn A", "Nam", 2005, 8.5, 9.0, 7.5),
+    new Student("SV001", "Nguyễn Nghĩa Nhân", "Nam", 2005, 8.5, 9.0, 7.5),
     new Student("SV002", "Trần Thị B", "Nữ", 2004, 9.0, 8.0, 9.5),
     new Student("SV003", "Lê Văn C", "Nam", 2005, 7.5, 8.0, 8.5),
     new Student("SV004", "Phạm Thị D", "Nữ", 2006, 9.5, 9.5, 9.0),
@@ -31,7 +31,7 @@ $students = [
     <!-- Dashboard -->
     <section class="mb-5">
         <h3 class="mb-4 fw-bold"><i class="bi bi-bar-chart-fill text-primary"></i> Dashboard Thống Kê</h3>
-        
+
         <div class="row g-3 mb-4">
             <div class="col-md-3">
                 <div class="card text-white bg-primary shadow">
@@ -102,28 +102,25 @@ $students = [
             <table class="table table-bordered table-hover align-middle mb-0">
                 <thead class="table-dark text-center align-middle">
                     <tr>
-                        <th rowspan="2">Mã SV</th>
-                        <th rowspan="2">Họ tên</th>
-                        <th rowspan="2">Giới tính</th>
-                        <th rowspan="2">Năm sinh</th>
-                        <th rowspan="2">Tuổi</th>
-                        <th colspan="3">Điểm Thành Phần</th>
-                        <th rowspan="2">Tổng Điểm</th>
-                        <th rowspan="2">Điểm TB</th>
-                        <th rowspan="2">Xếp loại</th>
-                        <th rowspan="2">Học bổng</th>
-                    </tr>
-                    <tr>
-                        <th>HTML</th>
-                        <th>CSS</th>
-                        <th>PHP</th>
+                        <th>Mã SV</th>
+                        <th>Họ tên</th>
+                        <th>Giới tính</th>
+                        <th>Năm sinh</th>
+                        <th>Tuổi</th>
+                        <th>Điểm HTML</th>
+                        <th>Điểm CSS</th>
+                        <th>Điểm PHP</th>
+                        <th>Tổng Điểm</th>
+                        <th>Điểm TB</th>
+                        <th>Xếp loại</th>
+                        <th>Học bổng</th>
                     </tr>
                 </thead>
                 <tbody class="text-center">
-                    <?php 
-                    foreach ($students as $student) { 
-                        $student->showInfo(); 
-                    } 
+                    <?php
+                    foreach ($students as $student) {
+                        $student->showInfo();
+                    }
                     ?>
                 </tbody>
             </table>

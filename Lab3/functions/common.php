@@ -62,7 +62,7 @@ function showProductTable($products, $tableTitle, $currency = 'VNĐ') {
     echo '<td colspan="2" class="text-end fw-bold text-uppercase">Tổng Cộng:</td>';
     echo '<td class="text-center fw-bold fs-5">' . getTotalQuantity($products) . '</td>';
     echo '<td></td>';
-    echo '<td class="text-end fw-bold fs-5 text-danger">' . formatPrice(getTotalPrice($products), $currency, $decimals) . '</td>';
+    echo '<td class="text-end fw-bold fs-5 text-danger">' . functionTest1(getTotalPrice($products), $currency) . '</td>';
     echo '</tr>';
     echo '</tfoot>';
     echo '</table>';

@@ -30,7 +30,7 @@ $students = [
 <main class="container my-5">
     <!-- Dashboard -->
     <section class="mb-5">
-        <h3 class="mb-4 fw-bold"><i class="bi bi-bar-chart-fill text-primary"></i> Dashboard Thống Kê</h3>
+        <h3 class="mb-4 fw-bold">Dashboard Thống Kê</h3>
 
         <div class="row g-3 mb-4">
             <div class="col-md-3">
@@ -97,7 +97,7 @@ $students = [
 
     <!-- Table -->
     <section class="mb-5">
-        <h3 class="mb-3 fw-bold"><i class="bi bi-people-fill text-primary"></i> Danh sách Học Viên</h3>
+        <h3 class="mb-3 fw-bold">Danh sách Học Viên</h3>
         <div class="table-responsive shadow-sm">
             <table class="table table-bordered table-hover align-middle mb-0">
                 <thead class="table-dark text-center align-middle">

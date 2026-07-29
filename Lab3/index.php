@@ -34,6 +34,18 @@ $perfumesWomen = [
 
 <!-- Main Content -->
 <main class="container my-5">
+    <!-- Hero Section -->
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg mb-5 bg-white">
+        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Maya Perfume - Quản lý Kho Hàng</h1>
+            <p class="lead mt-3">Hệ thống quản lý nội bộ các dòng sản phẩm nước hoa Nam và Nữ với đầy đủ số lượng, giá
+                nhập chi tiết và thống kê tồn kho.</p>
+        </div>
+        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+            <img class="rounded-lg-3" src="https://images.unsplash.com/photo-1541643600914-78b084683601?w=720&q=80"
+                alt="Perfume" width="720" style="object-fit:cover; height: 350px;">
+        </div>
+    </div>
 
     <!-- Tables Section -->
     <div class="row">

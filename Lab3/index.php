@@ -1,6 +1,6 @@
 <?php
 // Nhúng header bằng require
-require 'includes/header.php';
+'includes/header_loi.php';
 // Nhúng function
 require 'functions/common.php';
 

@@ -119,7 +119,9 @@ $students = [
                 <tbody class="text-center">
                     <?php
                     foreach ($students as $student) {
-                        $student->showInfo();
+                        if ($student->getScholarship()) {
+                            $student->showInfo();
+                        }
                     }
                     ?>
                 </tbody>

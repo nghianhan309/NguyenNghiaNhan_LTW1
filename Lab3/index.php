@@ -50,8 +50,14 @@ $perfumesWomen = [
 
     <!-- main -->
     <section class="mt-5">
-        <h3>Lorem ipsum dolor sit amet.</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime quaerat illum architecto voluptatem mollitia voluptatum enim, beatae eligendi doloribus perspiciatis cupiditate ducimus odit sunt neque adipisci est ex laboriosam consectetur debitis qui et provident voluptate velit? Rem libero natus voluptas provident voluptatum molestiae praesentium? Ut aut eos laborum atque animi pariatur repellendus! Delectus quaerat veniam corrupti exercitationem harum consequatur minima. Consequatur error et voluptates accusamus voluptas exercitationem nemo ea porro aut corrupti atque doloribus saepe sint obcaecati, rem alias animi reprehenderit. Cupiditate dicta quos necessitatibus magni consectetur. Aperiam, ipsum magnam assumenda quidem animi architecto soluta esse illo earum. Impedit.</p>
+        <h3>Floral & Fruity Bestsellers Section</h3>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Our
+            best-selling floral-fruity blends capture the brightness of ripe summer fruits and the softness of
+            hand-picked garden blooms, perfect for daytime wear and warm-weather seasons. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Each bottle features
+            recyclable glass packaging, aligned with our brand’s commitment to reducing environmental impact without
+            compromising on scent quality. Popular picks in this line include peach-infused jasmine, lychee rose, and
+            mango white frangipani, all tested to ensure 8+ hours of wear on skin.</p>
     </section>
 </main>
 

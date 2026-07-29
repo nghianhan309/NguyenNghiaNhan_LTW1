@@ -34,11 +34,6 @@ $perfumesWomen = [
 
 <!-- Main Content -->
 <main class="container my-5">
-    <!-- main -->
-    <section class="mb-5">
-        <h3>Lorem ipsum dolor sit amet.</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime quaerat illum architecto voluptatem mollitia voluptatum enim, beatae eligendi doloribus perspiciatis cupiditate ducimus odit sunt neque adipisci est ex laboriosam consectetur debitis qui et provident voluptate velit? Rem libero natus voluptas provident voluptatum molestiae praesentium? Ut aut eos laborum atque animi pariatur repellendus! Delectus quaerat veniam corrupti exercitationem harum consequatur minima. Consequatur error et voluptates accusamus voluptas exercitationem nemo ea porro aut corrupti atque doloribus saepe sint obcaecati, rem alias animi reprehenderit. Cupiditate dicta quos necessitatibus magni consectetur. Aperiam, ipsum magnam assumenda quidem animi architecto soluta esse illo earum. Impedit.</p>
-    </section>
 
     <!-- Tables Section -->
     <div class="row">
@@ -52,6 +47,12 @@ $perfumesWomen = [
             ?>
         </div>
     </div>
+
+    <!-- main -->
+    <section class="mt-5">
+        <h3>Lorem ipsum dolor sit amet.</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime quaerat illum architecto voluptatem mollitia voluptatum enim, beatae eligendi doloribus perspiciatis cupiditate ducimus odit sunt neque adipisci est ex laboriosam consectetur debitis qui et provident voluptate velit? Rem libero natus voluptas provident voluptatum molestiae praesentium? Ut aut eos laborum atque animi pariatur repellendus! Delectus quaerat veniam corrupti exercitationem harum consequatur minima. Consequatur error et voluptates accusamus voluptas exercitationem nemo ea porro aut corrupti atque doloribus saepe sint obcaecati, rem alias animi reprehenderit. Cupiditate dicta quos necessitatibus magni consectetur. Aperiam, ipsum magnam assumenda quidem animi architecto soluta esse illo earum. Impedit.</p>
+    </section>
 </main>
 
 <?php

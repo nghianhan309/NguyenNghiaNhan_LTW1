@@ -101,7 +101,7 @@ class Student
      */
     public function showInfo()
     {
-        $scholarship = $this->getScholarship() ? '<span class="badge bg-success shadow-sm">Có</span>' : '<span class="badge bg-secondary shadow-sm">Không</span>';
+        $scholarship = $this->getScholarship() ? 'Có' : 'Không';
         $rowColor = $this->getRowColorClass();
 
         echo "<tr class='$rowColor align-middle'>";

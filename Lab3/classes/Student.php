@@ -113,8 +113,8 @@ class Student
         echo "<td>{$this->scoreHtml}</td>";
         echo "<td>{$this->scoreCss}</td>";
         echo "<td>{$this->scorePhp}</td>";
-        echo "<td class='fw-bold text-danger'>{$this->getTotalScore()}</td>";
-        echo "<td class='fw-bold text-primary'>{$this->getAverage()}</td>";
+        echo "<td class='fw-bold'>{$this->getTotalScore()}</td>";
+        echo "<td class='fw-bold'>{$this->getAverage()}</td>";
         echo "<td class='fw-bold'>{$this->getRank()}</td>";
         echo "<td>{$scholarship}</td>";
         echo "</tr>";
